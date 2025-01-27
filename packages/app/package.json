@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "yarn app:es2018 && yarn app:es5",
+    "app:es2018": "BUILD_TARGET=es2018 rspack",
+    "app:es5": "BUILD_TARGET=es5 rspack"
+  },
+  "devDependencies": {
+    "@rspack/cli": "1.2.0-beta.0",
+    "@rspack/core": "1.2.0-beta.0"
+  }
+}

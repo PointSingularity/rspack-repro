@@ -1,0 +1,12 @@
+{
+  "name": "repro",
+  "packageManager": "yarn@4.1.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspaces foreach --all --topological --parallel run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
