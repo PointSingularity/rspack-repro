@@ -1,5 +1,5 @@
 node_modules
-!@mycompany/node_modules
+!@mycompany/app.js/node_modules
 dist
 build
 sites
